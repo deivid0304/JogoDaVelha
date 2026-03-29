@@ -131,7 +131,11 @@ Empate!
 
 ## 👨‍💻 Autor
 
-Desenvolvido por Deivid Ferreira 🚀
+Desenvolvido por:
+* Deivid
+* Samara
+* João
+* Yasmin
 
 ---
 
