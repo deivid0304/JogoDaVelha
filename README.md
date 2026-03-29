@@ -1,41 +1,140 @@
 # 🎮 Jogo da Velha em Java
 
-Este é um projeto simples de **Jogo da Velha** desenvolvido em Java, com entrada de nomes dos jogadores e um tabuleiro visualmente organizado no console.
+Projeto simples de um jogo da velha (Tic-Tac-Toe) desenvolvido em Java utilizando conceitos básicos de programação em Java.
+
+---
 
 ## 🚀 Funcionalidades
-- Tabuleiro 3x3 impresso de forma visual e amigável.
-- Entrada dos nomes dos jogadores (Jogador 1 = X, Jogador 2 = O).
-- Alternância automática entre jogadores.
-- Validação de jogadas (não permite jogar em casas já ocupadas).
-- Verificação de vitória (linhas, colunas e diagonais).
-- Verificação de empate (tabuleiro cheio sem vencedor).
-- Entrada separada de linha e coluna.
 
-## 📌 Exemplo de execução
+* Tabuleiro 3x3 exibido no console
+* Dois jogadores (X e O)
+* Validação de jogadas
+* Verificação automática de vitória
+* Detecção de empate
+* Alternância de jogadores
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+* Java 21
+* IDE IntelliJ
+
+---
+
+## 📌 Banner do Jogo da Velha
 
 
+![Banner do Jogo da Velha](imagem/Logo-Jogo-da-Velha.png)
 
-## 🛠️ Como executar
 
-1. Clone o repositório:
+## ▶️ Como executar o projeto
 
-   git clone https://github.com/seu-usuario/jogoDaVelha.git
+### 1. Clone o repositorio:
 
-2. Compile o projeto:
+```bash
+git clone https://github.com/seu-usuario/jogoDaVelha.git
+```
+### 2. Execute o programa
 
-    javac src/main/java/org/example/JogoDaVelha.java
+```bash
+java org.example.JogoDaVelha
+```
 
-3. Execute:
+---
 
-    java org.example.JogoDaVelha
+## 🕹️ Como jogar
 
-📂 Estrutura do projet
+1. Informe o nome dos jogadores
+2. O jogador X sempre começa
+3. Escolha a posição informando:
 
-    src/
- └── main/
-     └── java/
-         └── org/
-             └── example/
-                 └── JogoDaVelha.java
+   * Linha (0 a 2)
+   * Coluna (0 a 2)
+4. O jogo continua até vitória ou empate
 
-👨‍💻 AutorProjeto desenvolvido por Deivid como prática de lógica de programação em Java.
+---
+
+## 🖥️ Exemplo de execução
+
+### Entrada inicial:
+
+```
+Digite o nome do jogador 1 (X): João
+Digite o nome do jogador 2 (O): Maria
+```
+
+---
+
+### Estado inicial do tabuleiro:
+
+```
+        0     1     2
+      -----------------
+0->  |  -  |  -  |  -  |
+      -----------------
+1->  |  -  |  -  |  -  |
+      -----------------
+2->  |  -  |  -  |  -  |
+      -----------------
+```
+
+---
+
+### Jogada exemplo:
+
+```
+Vez de João (X)
+Digite a linha (0-2): 0
+Digite a coluna (0-2): 0
+```
+
+### Tabuleiro atualizado:
+
+```
+        0     1     2
+      -----------------
+0->  |  X  |  -  |  -  |
+      -----------------
+1->  |  -  |  -  |  -  |
+      -----------------
+2->  |  -  |  -  |  -  |
+      -----------------
+```
+
+---
+
+### Exemplo de vitória:
+
+```
+Vitória de João!
+```
+
+---
+
+### Exemplo de empate:
+
+```
+Empate!
+```
+
+---
+
+## 📌 Melhorias futuras
+
+* Interface gráfica (JavaFX ou Swing)
+* Modo jogador vs computador (IA simples)
+* Ranking de jogadores
+* Persistência de partidas
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por Deivid Ferreira 🚀
+
+---
+
+## 📄 Licença
+
+Este projeto é livre para estudos e melhorias.
